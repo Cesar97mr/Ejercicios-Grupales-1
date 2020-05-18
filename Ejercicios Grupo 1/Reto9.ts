@@ -1,8 +1,8 @@
-function numeros (n){
+export function numeros (n:number):string{
     if(n % 2 == 0){
-        console.log("El numero introducido es Par");
+         return "El numero introducido es Par";
     }else{
-        console.log("El numer introducido es Impar");
+        return "El numero introducido es Impar";
     }
 }
-numeros(17);
+console.log(numeros(20));
