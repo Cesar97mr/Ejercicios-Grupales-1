@@ -1,2 +1,6 @@
+
 ignore.
 probando ramas
+=======
+arreglando conflictos
+my_second_branch

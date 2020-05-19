@@ -1,12 +1,10 @@
-function arcoiris(array){
-    let arcoiris = ["rojo","naranja","amarillo", "verde", "azul", "Celeste", "violeta"];
-    let colorIgual = "";
+function arcoiris(array:string []): string{
     for(let i = 0;i<array.length;i++){
-        for(let j = 0;j<arcoiris.length;j++){
-        if(array[i] == arcoiris[j]){
-           console.log(colorIgual = array[i] + " esta en el arcoiris");
+        if(array[i] == "Naranja" || "Rojo" || "Amarillo" || "Verde" || "Azul" || "Violeta"){
+           return array[i] + " Pertenecen en el arcoiris"
+        }else{
+            return array[i] + " No pertenecen al arcoiris"
         }
     }
 }
-}
-arcoiris(["negro","rojo","blanco","azul"]);
+arcoiris(["Negro","Rojo","Blanco","Azul","Violeta"]);

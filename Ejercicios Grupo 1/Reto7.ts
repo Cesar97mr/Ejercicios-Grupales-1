@@ -1,12 +1,15 @@
 function Nombres(nombres : string[]){
-    const letra : string = "M";
-    let result : boolean = true || false;
-    for(let i = 0; i<nombres.length;i++){
-        if(nombres[i][0]===letra){
-            result = true;      
+    let i:number= 0;
+    let letra:string = "M"
+    let nameLetra : string = "";
+    let boolean : boolean = true || false;
+    while(i<nombres.length){
+        nameLetra = nombres[i][0];
+        if(nameLetra == letra){
+             boolean = true;
         }else{
-            result = false;
-        }
-    }
-}
-Nombres(["Mario","Carcos","Moises"]);
+             boolean = false;
+        }i++;
+        return boolean;
+ }
+ }
