@@ -3,17 +3,15 @@
 	
 
 import { numeros } from "./Reto9"
+import { numberArray } from "./Reto8";
 
-function numeroArray(array: string[]): string[]{
-    let arrayRespuesta = new Array
-    let Letras:string;
+function numeroArray(array: string[]):string{
+    let arrayRespuesta: string;
     let numeroLetras: number;
 
-    for(let index = 0; index <= array.length - 1; index++){
-        Letras =  array[index];
-        numeroLetras = Letras.length;
-        arrayRespuesta[index] = numeros(numeroLetras)
-    }
+        numeroLetras = numberArray(array);
+        arrayRespuesta = numeros(numeroLetras)
+    
 return arrayRespuesta;
 
 }
