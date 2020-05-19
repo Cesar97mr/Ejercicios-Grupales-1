@@ -1,6 +1,10 @@
 
+
 ignore.
 probando ramas
 =======
 arreglando conflictos
 my_second_branch
+=======
+Conflictos arreglados
+ my_third_branch
